@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="css/reset.css">
 
-    <!-- fonts -->
+				<!-- fonts -->
    	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600&amp;subset=cyrillic-ext" rel="stylesheet">
 
    	<!-- Animate CSS -->
@@ -15,9 +15,7 @@
 
    	<!-- WOW -->
     <script src="js/wow.min.js"></script>
-    <script>
-				 new WOW().init();
-				</script>
+    <script>new WOW().init();</script>
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
