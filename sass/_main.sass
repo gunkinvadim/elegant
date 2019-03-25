@@ -1,0 +1,38 @@
+.main
+	background: #d4af37 url(../img/main/main-bg.jpg) center no-repeat
+	background-size: cover
+	padding-top: 310px
+	padding-bottom: 310px
+	text-align: center
+	&-title
+		font-size: 80px
+		font-weight: 300
+		line-height: 110px
+		color: #ffffff
+		span
+			font-style: italic
+	&-arrow
+		display: none
+
+@media (max-width: 767px)
+	.main
+		background: #d4af37 url(../img/main/main-bg__mobile.jpg) center no-repeat
+		background-size: cover
+		padding-top: 492px
+		padding-bottom: 492px
+		&-title
+			font-size: 95px
+			line-height: 125px
+		&-arrow
+			display: block
+			margin-top: 54px
+
+@media (max-width: 575px)
+	.main
+		padding-top: 300px
+		padding-bottom: 300px
+		&-title
+			font-size: 60px
+			line-height: 75px
+		&-arrow
+			margin-top: 30px
