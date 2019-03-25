@@ -1,11 +1,27 @@
 .projects-menu
 	margin-top: 80px
-	&__block
-		list-style-type: none
-		display: flex
-		justify-content: center
-		flex-wrap: wrap
+	margin-left: auto
+	margin-right: auto
+	padding-left: 0
+	max-width: 1300px
+	list-style-type: none
+	display: flex
+	justify-content: center
+	flex-wrap: wrap
 	&__item
-		margin-left: 0
-		padding: 4px 4px
+		padding: 4px
 		max-height: 304px
+		flex-basis: 25%
+
+
+@media (max-width: 1299px)
+	.projects-menu
+		max-width: 650px
+		&__item
+			flex-basis: 50%
+
+@media (max-width: 767px)
+	.projects-menu
+		&__item
+			max-height: 250px
+			flex-basis: 100%

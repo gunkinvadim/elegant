@@ -31,7 +31,7 @@
 					</div>
 					<!-- /.header-logo -->
 					<button class="header-button">
-						<span class="hidden-mobile">MENU</span>
+						<span class="header-button__text hidden-mobile">MENU</span>
 						<img src="img/header/header-menu-icon.png" alt="Меню" class="header-button__icon">
 					</button>
 					<!-- /.header-button -->
@@ -65,29 +65,24 @@
 				<h3 class="section-subtitle">Show Your Amazing Work</h3>
 				<!-- /.section-subtitle -->
 
-				<div class="projects-menu">
-					<ul class="projects-menu__block">
-						<li class="projects-menu__item"><a href="#"><img src="img/projects/project-1.jpg" alt="Project-1"></a></li>
-						<!-- /.projects-menu__item -->
-						<li class="projects-menu__item"><a href="#"><img src="img/projects/project-2.jpg" alt="Project-2"></a></li>
-						<!-- /.projects-menu__item -->
-						<li class="projects-menu__item"><a href="#"><img src="img/projects/project-3.jpg" alt="Project-3"></a></li>
-						<!-- /.projects-menu__item -->
-						<li class="projects-menu__item"><a href="#"><img src="img/projects/project-4.jpg" alt="Project-4"></a></li>
-						<!-- /.projects-menu__item -->
-					</ul>
-					<ul class="projects-menu__block">
-						<li class="projects-menu__item"><a href="#"><img src="img/projects/project-5.jpg" alt="Project-5"></a></li>
-						<!-- /.projects-menu__item -->
-						<li class="projects-menu__item"><a href="#"><img src="img/projects/project-6.jpg" alt="Project-6"></a></li>
-						<!-- /.projects-menu__item -->
-						<li class="projects-menu__item"><a href="#"><img src="img/projects/project-7.jpg" alt="Project-7"></a></li>
-						<!-- /.projects-menu__item -->
-						<li class="projects-menu__item"><a href="#"><img src="img/projects/project-8.jpg" alt="Project-8"></a></li>
-						<!-- /.projects-menu__item -->
-					</ul>
-					<!-- /.projects-menu__block -->
-				</div>
+				<ul class="projects-menu">
+					<li class="projects-menu__item"><a href="#"><img src="img/projects/project-1.jpg" alt="Project-1"></a></li>
+					<!-- /.projects-menu__item -->
+					<li class="projects-menu__item"><a href="#"><img src="img/projects/project-2.jpg" alt="Project-2"></a></li>
+					<!-- /.projects-menu__item -->
+					<li class="projects-menu__item"><a href="#"><img src="img/projects/project-3.jpg" alt="Project-3"></a></li>
+					<!-- /.projects-menu__item -->
+					<li class="projects-menu__item"><a href="#"><img src="img/projects/project-4.jpg" alt="Project-4"></a></li>
+					<!-- /.projects-menu__item -->
+					<li class="projects-menu__item"><a href="#"><img src="img/projects/project-5.jpg" alt="Project-5"></a></li>
+					<!-- /.projects-menu__item -->
+					<li class="projects-menu__item"><a href="#"><img src="img/projects/project-6.jpg" alt="Project-6"></a></li>
+					<!-- /.projects-menu__item -->
+					<li class="projects-menu__item"><a href="#"><img src="img/projects/project-7.jpg" alt="Project-7"></a></li>
+					<!-- /.projects-menu__item -->
+					<li class="projects-menu__item"><a href="#"><img src="img/projects/project-8.jpg" alt="Project-8"></a></li>
+					<!-- /.projects-menu__item -->
+				</ul>
 				<!-- /.projects-menu -->
 			</section>
 			<!-- /.section projects -->
