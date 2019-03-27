@@ -31,8 +31,7 @@
 					</div>
 					<!-- /.header-logo -->
 					<button class="header-button">
-						<span class="header-button__text hidden-mobile">MENU</span>
-						<img src="img/header/header-menu-icon.png" alt="Меню" class="header-button__icon">
+						<span class="hidden-mobile">MENU</span>
 					</button>
 					<!-- /.header-button -->
 				</header>
@@ -86,6 +85,98 @@
 				<!-- /.projects-menu -->
 			</section>
 			<!-- /.section projects -->
+
+			<section class="section employees">
+				<div class="container">
+					<h2 class="section-title">Who we are</h2>
+					<!-- /.section-title -->
+					<h3 class="section-subtitle">The Amazing People Behind This</h3>
+					<!-- /.section-subtitle -->
+					<p class="section-description">Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</p>
+					<!-- /.section-description -->
+
+					<ul class="employees-list">
+						<li class="employees-list__item">
+							<div class="employee__photo">
+								<img src="img/employees/employee-1.jpg" alt="Tobias Schneider">
+							</div>
+							<!-- /.employee__photo -->
+							<div class="employee-text">
+								<h4 class="employee__position">CEO</h4>
+								<!-- /.employee__position -->
+								<h5 class="employee__name">Tobias Schneider</h5>
+								<!-- /.employee__name -->
+								<p class="employee__description">Lorem ipsum dolor sit amet, conse tetuer adi piscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>
+								<!-- /.employee__description -->
+							</div>
+							<!-- /.employee-text -->
+						</li>
+						<!-- /.employees-list__item -->
+						<li class="employees-list__item">
+							<div class="employee__photo">
+								<img src="img/employees/employee-2.jpg" alt="Jack Knife">
+							</div>
+							<!-- /.employee__photo -->
+							<div class="employee-text">
+								<h4 class="employee__position">Designer</h4>
+								<!-- /.employee__position -->
+								<h5 class="employee__name">Jack Knife</h5>
+								<!-- /.employee__name -->
+								<p class="employee__description">Lorem ipsum dolor sit amet, conse tetuer adi piscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>
+								<!-- /.employee__description -->
+							</div>
+							<!-- /.employee-text -->
+						</li>
+						<!-- /.employees-list__item -->
+						<li class="employees-list__item">
+							<div class="employee__photo">
+								<img src="img/employees/employee-3.jpg" alt="Ricki Hall">
+							</div>
+							<!-- /.employee__photo -->
+							<div class="employee-text">
+								<h4 class="employee__position">Developer</h4>
+								<!-- /.employee__position -->
+								<h5 class="employee__name">Ricki Hall</h5>
+								<!-- /.employee__name -->
+								<p class="employee__description">Lorem ipsum dolor sit amet, conse tetuer adi piscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>
+								<!-- /.employee__description -->
+							</div>
+							<!-- /.employee-text -->
+						</li>
+						<!-- /.employees-list__item -->
+					</ul>
+					<!-- /.employees-list -->
+				</div>
+				<!-- /.container -->
+			</section>
+			<!-- /.section -->
+
+			<section class="section blog">
+				<div class="container">
+					<h2 class="section-title">Last post</h2>
+					<!-- /.section-title -->
+					<h3 class="section-subtitle">We Like To Write</h3>
+					<!-- /.section-subtitle -->
+
+					<div class="blog-block">
+						<div class="blog-img"><img src="img/blog/blog-img.jpg" alt="Change Your Space"></div>
+						<!-- /.blog-img -->
+						<div class="blog-text">
+							<div class="blog-text__date">27 March 2019</div>
+							<!-- /.blog-date -->
+							<h4 class="blog-text__title">Change Your Space</h4>
+							<!-- /.blog-title -->
+							<p class="blog-text__description">Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores.</p>
+							<!-- /.blog-description -->
+							<button class="button blog-text__button">Read</button>
+						</div>
+						<!-- /.blog-text -->
+					</div>
+					<!-- /.blog-block -->
+				</div>
+				<!-- /.container -->
+			</section>
+			<!-- /.section blog -->
 
 				<!-- Optional JavaScript -->
 				<!-- jQuery first, then Popper.js, then Bootstrap JS -->
