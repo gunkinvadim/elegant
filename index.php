@@ -30,6 +30,14 @@
 						<img src="img/header/header-logo.png" alt="Elegant">
 					</div>
 					<!-- /.header-logo -->
+					<nav class="header-menu">
+						<a class="header-menu__item" href="#about">About Us</a>
+						<a class="header-menu__item" href="#projects">Our Works</a>
+						<a class="header-menu__item" href="#employees">Our Employees</a>
+						<a class="header-menu__item" href="#blog">Our Blog</a>
+						<a class="header-menu__item" href="#contacts">Our Contacts</a>
+					</nav>
+					<!-- /.header-menu -->
 					<button class="header-button">
 						<span class="hidden-mobile">MENU</span>
 					</button>
@@ -52,13 +60,13 @@
 					<!-- /.section-subtitle -->
 					<p class="section-description">Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc, fiant sollemnes in futurum.</p>
 					<!-- /.section-description -->
-					<button class="button">Read More About Us</button>
+					<a class="button" href="">Read More About Us</a>
 				</div>
 				<!-- /.container -->
 			</section>
 			<!-- /.about -->
 
-			<section class="section projects">
+			<section id="projects" class="section projects">
 				<h2 class="section-title">What we do</h2>
 				<!-- /.section-title -->
 				<h3 class="section-subtitle">Show Your Amazing Work</h3>
@@ -86,7 +94,7 @@
 			</section>
 			<!-- /.section projects -->
 
-			<section class="section employees">
+			<section id="employees" class="section employees">
 				<div class="container">
 					<h2 class="section-title">Who we are</h2>
 					<!-- /.section-title -->
@@ -97,10 +105,10 @@
 
 					<ul class="employees-list">
 						<li class="employees-list__item">
-							<div class="employee__photo">
+							<div class="employee-photo">
 								<img src="img/employees/employee-1.jpg" alt="Tobias Schneider">
 							</div>
-							<!-- /.employee__photo -->
+							<!-- /.employee-photo -->
 							<div class="employee-text">
 								<h4 class="employee__position">CEO</h4>
 								<!-- /.employee__position -->
@@ -113,10 +121,10 @@
 						</li>
 						<!-- /.employees-list__item -->
 						<li class="employees-list__item">
-							<div class="employee__photo">
+							<div class="employee-photo">
 								<img src="img/employees/employee-2.jpg" alt="Jack Knife">
 							</div>
-							<!-- /.employee__photo -->
+							<!-- /.employee-photo -->
 							<div class="employee-text">
 								<h4 class="employee__position">Designer</h4>
 								<!-- /.employee__position -->
@@ -129,10 +137,10 @@
 						</li>
 						<!-- /.employees-list__item -->
 						<li class="employees-list__item">
-							<div class="employee__photo">
+							<div class="employee-photo">
 								<img src="img/employees/employee-3.jpg" alt="Ricki Hall">
 							</div>
-							<!-- /.employee__photo -->
+							<!-- /.employee-photo -->
 							<div class="employee-text">
 								<h4 class="employee__position">Developer</h4>
 								<!-- /.employee__position -->
@@ -151,7 +159,7 @@
 			</section>
 			<!-- /.section -->
 
-			<section class="section blog">
+			<section id="blog" class="section blog">
 				<div class="container">
 					<h2 class="section-title">Last post</h2>
 					<!-- /.section-title -->
@@ -168,15 +176,76 @@
 							<!-- /.blog-title -->
 							<p class="blog-text__description">Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores.</p>
 							<!-- /.blog-description -->
-							<button class="button blog-text__button">Read</button>
+							<a class="button blog-text__button" href="">Read</a>
 						</div>
 						<!-- /.blog-text -->
 					</div>
 					<!-- /.blog-block -->
+					<a class="button" href="">More From Our Blog</a>
 				</div>
 				<!-- /.container -->
 			</section>
 			<!-- /.section blog -->
+
+			<section id="contacts" class="section contacts">
+				<div class="container">
+					<h2 class="section-title">Contact Us</h2>
+					<!-- /.section-title -->
+					<h3 class="section-subtitle">Work With Us</h3>
+					<!-- /.section-subtitle -->
+					<div class="contacts-card">
+						<div class="contacts-card__map"><img src="img/contacts/map.jpg" alt="198 West 21th Street, New York, NY 10010"></div>
+						<ul class="contacts-card__blocks">
+							<li class="contacts-block">
+								<h4 class="contacts-block__title">Location</h4>
+								<!-- /.contacts-block__title -->
+								<p class="contacts-block__value">198 West 21th Street, New York, NY 10010</p>
+								<!-- /.contacts-block__value -->
+							</li>
+							<!-- /.contacts-block -->
+							<li class="contacts-block">
+								<h4 class="contacts-block__title">Phone</h4>
+								<!-- /.contacts-block__title -->
+								<p class="contacts-block__value">+88 (0) 101 0000000<br>+88 (0) 101 0000000</p>
+								<!-- /.contacts-block__value -->
+							</li>
+							<!-- /.contacts-block -->
+							<li class="contacts-block">
+								<h4 class="contacts-block__title">Fax</h4>
+								<!-- /.contacts-block__title -->
+								<p class="contacts-block__value">+88 (0) 202 0000 000<br>+88 (0) 202 0000 000</p>
+								<!-- /.contacts-block__value -->
+							</li>
+							<!-- /.contacts-block -->
+							<li class="contacts-block">
+								<h4 class="contacts-block__title">Email</h4>
+								<!-- /.contacts-block__title -->
+								<p class="contacts-block__value">elegant@elegant.com<br>commercial@elegant.com</p>
+								<!-- /.contacts-block__value -->
+							</li>
+							<!-- /.contacts-block -->
+						</ul>
+						<!-- /.contacts-card__blocks -->
+					</div>
+					<!-- /.contacts-card -->
+				</div>
+				<!-- /.container -->
+			</section>
+			<!-- /.section contacts -->
+
+			<footer class="footer">
+				<div class="container">
+					<div class="footer-text">
+						<p class="footer-text__block">© 2014 Designed and Developed by Diogo Dantas</p>
+						<!-- /.footer-text__block -->
+						<p class="footer-text__block">Email: imdiogodantas@gmail.com</p>
+						<!-- /.footer-text__block -->
+					</div>
+					<!-- /.footer-text -->
+				</div>
+				<!-- /.container -->
+			</footer>
+			<!-- /.footer -->
 
 				<!-- Optional JavaScript -->
 				<!-- jQuery first, then Popper.js, then Bootstrap JS -->

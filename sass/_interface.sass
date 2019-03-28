@@ -23,13 +23,20 @@
 		color: $text-color_dark
 
 .button
+	display: inline-block
 	margin-top: 46px
 	border: 1px solid #000000
 	background-color: transparent
 	padding: 23px 48px
 	font-size: 14px
 	font-weight: 300
-	text-color: $text-color_dark
+	color: $text-color_dark
 	&:hover
 		background-color: rgba($text-color_bright, 0.8)
 		color: $text-color_light
+		text-decoration: none
+
+@media (max-width: 575px)
+	.section
+		padding-top: 40px
+		padding-bottom: 40px

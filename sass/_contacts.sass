@@ -1,0 +1,59 @@
+.contacts
+	&-card
+		margin-top: 64px
+		display: flex
+		flex-direction: column
+		justify-content: center
+		align-items: center
+		&__map
+			width: 768px
+			img
+				width: 100%
+		&__blocks
+			width: 768px
+			background-color: $bg-color_grey
+			list-style-type: none
+			padding-left: 73px
+			padding-right: 73px
+			padding-bottom: 43px
+			display: flex
+			flex-wrap: wrap
+
+	&-block
+		margin-top: 53px
+		flex-basis: 50%
+		&__title
+			font-size: 19
+			font-weight: 600
+			color: $text-color_dark-2
+		&__value
+			margin-top: 40px
+			font-size: 19px
+			font-weight: 300
+			line-height: 34px
+			color: $text-color_dark-2
+
+@media (max-width: 767px)
+	.contacts
+		&-card
+			&__map
+				width: 100%
+			&__blocks
+				width: 100%
+				flex-direction: column
+				padding-left: 0
+				padding-right: 0
+		&-block
+			margin-top: 30px
+			&__value
+				margin-top: 20px
+
+@media (max-width: 575px)
+	.contacts
+		&-block
+			margin-top: 25px
+			&__title
+				font-size: 16px
+			&__value
+				margin-top: 15px
+				font-size: 16px

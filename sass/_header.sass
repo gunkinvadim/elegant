@@ -5,27 +5,113 @@
 	right: 0
 	display: flex
 	justify-content: space-between
-	padding: 16px 48px
-	background-color: transparent
+	&_scroll
+		background-color: rgba(#242f35, 0.7)
+	&-logo
+		margin: 16px 48px
 	&-button
+		margin: 10px 48px
 		border: none
 		padding-right: 28px
 		font-weight: 600
 		font-size: 16px
 		color: $text-color_light
+		background: transparent url(../img/header/header-menu-icon.png) 90% 49% no-repeat
+	&-menu
+		position: absolute
+		top: 7%
+		right: 100%
+		transform: translateX(-50%)
+		width: 60%
 		display: flex
+		justify-content: center
 		align-items: center
-		background: transparent url(../img/header/header-menu-icon.png) 90% no-repeat
+		transition: all, 0.5s
+		&__item
+			padding-top: 20px
+			padding-bottom: 20px
+			padding-left: 20px
+			padding-right: 20px
+			border-right: 1px dashed #ffffff
+			font-weight: 600
+			font-size: 16px
+			text-transform: uppercase
+			color: $text-color_light
+			&:first-child
+				border-left: 1px dashed #ffffff
+			&:hover
+				text-decoration: none
+				color: $text-color_bright
+		&_active
+			left: 55%
+			
+
+@media (max-width: 1199px)
+	.header
+		&-menu
+			width: 60%
+			top: 11%
+			&__item
+				padding-left: 15px
+				padding-right: 15px
+				font-size: 13px
+			&_active
+				left: 55%
+
+@media (max-width: 991px)
+	.header
+		&-menu
+			width: 70%
+			top: 19%
+			&__item
+				padding-top: 10px
+				padding-bottom: 10px
+				padding-left: 10px
+				padding-right: 10px
+				font-size: 12px
+			&_active
+				left: 51%
+				
+		&-logo
+			width: 100px
+			margin-left: 30px
+			img
+				width: 100%
+		&-button
+			margin-right: 30px
+
 
 @media (max-width: 767px)
 	.header
 		padding: 0
 		background-color: rgba(#242f35, 0.7)
+		&-menu
+			position: absolute
+			left: 50%
+			top: -500px
+			width: 80% 
+			flex-direction: column
+			background-color: rgba(#242f35, 0.7)
+			&__item
+				width: 100%
+				border-bottom: 1px dotted #ffffff
+				border-right: none
+				padding-top: 22px
+				padding-bottom: 22px
+				text-align: center
+				font-weight: 600
+				font-size: 16px
+				&:last-child
+					border-bottom: none
+			&_active
+				top: 200%
 		&-logo
-			margin-top: 14px
+			width: 150px
+			margin-top: 18px
 			margin-bottom: 18px
 			margin-left: 28px
 		&-button
+			margin: 0
 			background-color: rgba(#242f35, 0.9)
 			background-position-x: center
 			width: 60px

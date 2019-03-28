@@ -4,7 +4,6 @@
 		display: flex
 		justify-content: center
 		list-style-type: none
-		margin-left: 0
 		padding-left: 0
 		align-items: center
 		&__item
@@ -13,6 +12,10 @@
 				margin-left: 0
 
 .employee
+	&-photo
+		max-width: 246px
+		img
+			width: 100%
 	&-text
 		width: 246px
 		background-color: $bg-color_grey
@@ -45,8 +48,8 @@
 				:first-child
 					margin-top: 0
 	.employee
-		&__photo
-			width: 100%
+		&-photo
+			max-width: 100%
 			img
 				width: 100%
 		&-text
