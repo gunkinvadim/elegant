@@ -17,6 +17,10 @@
 		font-size: 16px
 		color: $text-color_light
 		background: transparent url(../img/header/header-menu-icon.png) 90% 49% no-repeat
+		&:hover
+			cursor: pointer
+		&:focus
+			outline: none
 	&-menu
 		position: absolute
 		top: 7%
@@ -32,14 +36,12 @@
 			padding-bottom: 20px
 			padding-left: 20px
 			padding-right: 20px
-			border-right: 1px dashed #ffffff
 			font-weight: 600
 			font-size: 16px
 			text-transform: uppercase
 			color: $text-color_light
-			&:first-child
-				border-left: 1px dashed #ffffff
 			&:hover
+				cursor: pointer
 				text-decoration: none
 				color: $text-color_bright
 		&_active

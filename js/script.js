@@ -1,5 +1,5 @@
 $(window).scroll(function(){
-    if ($(window).scrollTop() > 100) {
+    if ($(window).scrollTop() > 50) {
         $('.header').addClass('header_scroll');
     }
     else {
